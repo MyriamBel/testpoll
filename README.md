@@ -33,6 +33,9 @@
   python manage.py migrate
   python manage.py createsuperuser
 !!!Создаём супер-юзера с именем testpoll и паролем testpoll.
+
 Проверка версий Python и Django:
 python -m django --version
 python3 -V
+
+Документация по ендпоинтам доступна после запуска проекта по ссылке: http://127.0.0.1:8000/swagger/
